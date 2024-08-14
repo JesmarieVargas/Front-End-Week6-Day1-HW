@@ -26,6 +26,7 @@ const MoviesList = () => {
 
     const deleteMovie = index => {
         setMovies(movies.filter((movie, i) => i !== index));
+        setDescription(description.filter((description, i) => i !== index));
     }
 //Task 4: Toggling List View
 
